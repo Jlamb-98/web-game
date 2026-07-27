@@ -1,23 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Game</title>
-</head>
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Game Dev Canvas Workshop</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      canvas {
+        background: #eeeeee;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="480" height="320"></canvas>
 
-<body>
-  <h1>Super Cool Game</h1>
-  <canvas id="game" width="800" height="600">
-    If you are seeing this, your browser does not support this game. Sorry!
-  </canvas>
-</body>
-
-<script>
-  const canvas = document.getElementById("game");
-  const ctx = canvas.getContext("2d");
-
-  ctx.fillStyle = "green";
-  ctx.fillRect(10, 10, 150, 100);
-</script>
+  <script src="./index.js"></script>
+  </body>
 </html>

@@ -1,2 +1,1 @@
-Making a simple shoot 'em up in HTML and JavaScript.
-
+Creating the 2D Breakout game tutorial found [here](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript).
